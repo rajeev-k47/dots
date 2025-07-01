@@ -14,7 +14,7 @@ while true; do
     swww img "$IMAGE" \
       --transition-fps 60 \
       --transition-step 100 \
-      --transition-type grow
+      --transition-type any
 
     # Generate colors for ags
     "$CONFIG_DIR"/scripts/color_generation/colorgen.sh "$IMAGE" --apply --smart
