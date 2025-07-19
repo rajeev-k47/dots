@@ -44,5 +44,3 @@ else
   NEW_RULE="windowrulev2 = opacity $default_transparency $default_transparency, class:^($window_name)\$"
   echo "$NEW_RULE" >>"$config_file"
 fi
-
-exit 0
